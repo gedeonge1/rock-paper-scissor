@@ -25,6 +25,21 @@
         let computerMove = getComputerChoice();
         let playerSelection = prompt('pick among Rock, Paper and Scissors?','').toLocaleLowerCase();
 
+        function playRound(playerSelection,computerMove){
+            let result;
+            if((playerSelection === 'rock' && computerMove === 'scissors') ||
+            (playerSelection === 'paper' && computerMove === 'rock')||
+            (playerSelection === 'scissors' && computerMove === 'paper') ){
+                return console.log (`You Won, ${playerSelection} beats ${computerMove} `)
+            }
+
+            if(playerSelection === computerMove){
+                return console.log(`you tie, ${playerSelection} ties with ${computerMove}`)
+            }else{
+                return console.log(`You lost, ${computerMove} beats ${playerSelection}`)
+            }
+        }
+
     </script>
 </body>
 </html>
