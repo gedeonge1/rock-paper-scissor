@@ -1,3 +1,9 @@
 # Rock-Paper-Scissors
 
-In this project I am going to work on a simple game which is called Rock-Paper-Scissor game and it is played between one player and a computer. The game is played when you entre your choice in the box and press ok and then computer wil also select its choice randomly.
+This project works on a simple game which is called "Rock-Paper-Scissor" and it is played between a player and a computer. The game is played when you type your choice in the box and press ok and then a computer will pick its choice randomly. Aftel all the result will be announced in the console.
+
+# Visit Site
+visit my site here: https://gedeonge1.github.io/rock-paper-scissor/
+
+# Development Branch
+check the codebase: https://github.com/gedeonge1/rock-paper-scissor/tree/develop
